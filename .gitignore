@@ -1,7 +1,7 @@
-# Dependencias
+# Dependencies
 node_modules/
 
-# Variables de entorno y credenciales
+# Environment variables and credentials
 .env
 .env.*
 !.env.example
@@ -10,14 +10,14 @@ node_modules/
 *.log
 logs/
 
-# Archivos del sistema
+# Operating system files
 .DS_Store
 Thumbs.db
 
 # VS Code
 .vscode/
 
-# Archivos temporales
+# Temporary files
 *.tmp
 *.temp
 
@@ -27,6 +27,12 @@ __pycache__/
 .venv/
 venv/
 
-# Build
+# Build artifacts
 dist/
 build/
+
+# Downloaded meteorological data
+data/weather/waila_spa_noaa_data/
+data/weather/spa_weather_data/
+*.psv
+*.jsonl

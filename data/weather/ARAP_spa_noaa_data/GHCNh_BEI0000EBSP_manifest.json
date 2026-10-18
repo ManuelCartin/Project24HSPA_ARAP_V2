@@ -1,0 +1,32 @@
+{
+  "dataset": "NOAA Global Historical Climatology Network hourly (GHCNh)",
+  "station": {
+    "station_id": "BEI0000EBSP",
+    "latitude": 50.4833,
+    "longitude": 5.9167,
+    "elevation_m": 482.0,
+    "station_name": "SPA/LA SAUVENIERE",
+    "country_code": "BE"
+  },
+  "period": "period of record available from NOAA; exact range is in the source rows",
+  "download": {
+    "url": "https://www.ncei.noaa.gov/oa/global-historical-climatology-network/hourly/access/by-station/GHCNh_BEI0000EBSP_por.psv",
+    "downloaded_at_utc": "2026-10-18T21:06:23.030245+00:00",
+    "http_status": 200,
+    "bytes": 519698645,
+    "sha256": "268f697af892e5d5fadc1bb3502214aae310f19861e98704b1a0374377e20e9e",
+    "seconds": 24.98,
+    "content_type": "application/octet-stream",
+    "etag": "\"87472237adeca6ef9178fdc1a3429040\"",
+    "last_modified": "Fri, 16 Oct 2026 17:03:25 GMT"
+  },
+  "conversion": {
+    "jsonl_rows": 738039,
+    "jsonl_file": "GHCNh_BEI0000EBSP_por.jsonl",
+    "source_columns": 329
+  },
+  "raw_psv": "D:\\Potingo\\vs\\Project24HSPA_ARAP\\waila_spa_noaa_data\\GHCNh_BEI0000EBSP_por.psv",
+  "mongodb_jsonl": "D:\\Potingo\\vs\\Project24HSPA_ARAP\\waila_spa_noaa_data\\GHCNh_BEI0000EBSP_por.jsonl",
+  "quality_note": "Original NOAA fields/codes are preserved as strings; consult NOAA documentation before interpreting codes or converting units.",
+  "created_at_utc": "2026-10-18T21:07:58.070525+00:00"
+}

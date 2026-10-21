@@ -17,7 +17,7 @@ The platform aims to bring together racing telemetry, historical weather observa
 
 - MongoDB
 - Spring Boot
-- Java
+- Bootstrap
 - REST API
 - HTML5
 - CSS3

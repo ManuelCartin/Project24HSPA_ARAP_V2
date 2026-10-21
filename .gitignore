@@ -36,3 +36,9 @@ data/weather/waila_spa_noaa_data/
 data/weather/spa_weather_data/
 *.psv
 *.jsonl
+
+# Respaldos y exportaciones de MongoDB
+data/mongo/
+*.bson
+*.bson.gz
+*.metadata.json
